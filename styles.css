@@ -8,6 +8,7 @@
 
 body{
 	margin: 0px;
+	font-family: 'Lato', sans-serif;
 }
 
 .container{
@@ -50,6 +51,14 @@ body{
 }
 
 .nav-link-wrapper a:hover{
+	color: black;
+}
+
+.active-nav-link{
+	border-bottom: 1px solid black;
+}
+
+.active-nav-link a{
 	color: black;
 }
 
@@ -103,4 +112,23 @@ body{
 
 .img-darken{
 	filter: brightness(10%);
+}
+
+/* About */
+
+.two-column-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.profile-img-wrapper img{
+	width: 100%;
+}
+
+.profile-content-wrapper{
+	padding: 30px;
+}
+
+.profile-content-wrapper h1{
+	color: lightseagreen;
 }
